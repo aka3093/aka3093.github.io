@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 30px;
+/*    background-image: url("../img/background.jpg");*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: fixed;*/
+/*    background-position: center;*/
+}
+
+header {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    transition: transform 0.5s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.06);
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 10px;
+    color: #555;
+}
